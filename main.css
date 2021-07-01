@@ -38,6 +38,7 @@ body{
 .row {
     display: flex;
     height: 60vh;
+    margin: auto;
 }
 .column {
     padding: 20px;
@@ -88,27 +89,61 @@ h3 {
 .titleHorizontal {
     writing-mode: vertical-lr;
     text-orientation: mixed;
-    width: 20%;
+    width: 10%;
     padding-top: 5rem;
     font-weight: 600;
     letter-spacing: 0.5rem;
+}
+.title {
+    width: 10rem;
+    padding-top: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    margin: auto;
 }
 .description {
     line-height: 2rem;
     letter-spacing: 2px;
 }
 .skills {
-    background-color: rgba(0, 0, 0, 0.2);
-    display: flex;
+    display: inline-flex;
+    height:40vh;
 }
 .skillList {
-    width: 30%;
-    padding: 5rem;
-    margin-left: 10rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3rem 0rem 3rem 0rem;
+    border-radius: 2rem 4rem 2rem 4rem;
+    display: inline;
 }
 .skillList li {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3px;
+}
+.services {
+    display: inline-flex;
+    margin-right: 0;
+}
+.serviceList {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3rem 0rem 3rem 0rem;
+    border-radius: 2rem 4rem 2rem 4rem;
+    display: inline;
+    margin-right: 10rem;
+}
+.serviceList li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 3px;
+}
+.work {
+    width: 70%;
+    margin: auto;
+}
+.project {
+    margin: auto;
 }
