@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;800&display=swap');
+
+body{
+    background-color:#053d57 ;
+    height: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.nav ul {
+    text-align: center;
+    margin: 0;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px;
+}
+.nav ul li a:hover{
+    color: #8f294b;
+}
+.header {
+    width: 90%;
+    margin: 0rem 10rem 0rem 10rem;
+}
+.row {
+    display: flex;
+    height: 60vh;
+}
+.column {
+    padding: 20px;
+    flex: 50%;
+    margin: auto;
+    text-align: center; 
+
+}
+.column  h3 {
+    line-height: 3rem;
+}
+h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+h3 {
+    margin:0rem 5rem 0rem 5rem;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.coderimg {
+   width:60%;
+   height: 60%;
+   float: left;    
+}
+.aboutMe {
+    margin: 0rem 20rem 0rem 20rem;
+    display: flex;
+}
+}
+.amosimg {
+    padding:0 2rem 0 2rem;
+    width: 40vw;
+}
+.amosimg img {
+    border-radius:3rem 5rem 3rem 5rem;
+    border: #8f294b solid 10px;
+    width: 20rem;
+    height: 20rem;
+    background-color:#fff ;
+    -webkit-box-shadow: 8px 6px 17px 0px rgba(143,41,75,0.71); 
+    box-shadow: 8px 6px 17px 0px rgba(143,41,75,0.71);
+}
+.titleHorizontal {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    width: 20%;
+    padding-top: 5rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+}
+.description {
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+.skills {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.skillList {
+    width: 30%;
+    padding: 5rem;
+    margin-left: 10rem;
+}
+.skillList li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
+}
