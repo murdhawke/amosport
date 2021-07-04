@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;600;800&display=swap');
 
+html {
+    overflow: hidden;
+}
 body{
     background-color:#053d57 ;
     height: 100%;
@@ -63,6 +66,16 @@ h3 {
     font-weight: 400;
 
 }
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
 .coderimg {
    width:60%;
    height: 60%;
@@ -71,7 +84,6 @@ h3 {
 .aboutMe {
     margin: 0rem 20rem 0rem 20rem;
     display: flex;
-}
 }
 .amosimg {
     padding:0 2rem 0 2rem;
