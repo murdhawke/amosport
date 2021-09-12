@@ -1,0 +1,30 @@
+//Customization Here (Optional)
+
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+//BRAND COLORS
+// Set your brand colors
+$electric-purple: #6f00ff;
+$light-purple:#6050dc;
+$background:#f8f8ff;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $electric-purple;
+$secondary:$light-purple;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $background;
+$body-size:1.4em;
+$body-weight:600;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-height: 4rem;
+$title-color: #6050dc;
+$title-strong-color: #6050dc;
+//Bulma import
+@import '~bulma';
