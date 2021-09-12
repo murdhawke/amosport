@@ -8,6 +8,7 @@
 $electric-purple: #6f00ff;
 $light-purple:#6050dc;
 $background:#f8f8ff;
+$link:$light-purple;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -26,5 +27,6 @@ $input-shadow: none;
 $navbar-height: 4rem;
 $title-color: #6050dc;
 $title-strong-color: #6050dc;
+$border-radius:15px;
 //Bulma import
 @import '~bulma';
