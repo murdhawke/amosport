@@ -1,11 +1,11 @@
 <template>
   <div class="home">
     <section class="container">
-      <div class="container is-mobile">
+      <div class="container ">
         <section class="hero  is-medium">
           <div class="hero-body">
             <div class="columns">
-              <div class="me ">
+              <div class="me">
                 <figure class="image" >
                   <img class="is-rounded is-128x128 " src="../assets/avatar.png" >
                 </figure>
@@ -13,7 +13,8 @@
               <div class="fulltext ">
                 <p class="subtitle">Hello! I'm <strong>Amos Cheruiyot</strong></p>
                 <p class="title is-primary">
-                  Tech Excellence & Product Support
+                  Tech Excellence &
+                  Product Support
                 </p>
                 <p>
                   I design and automate business tools. Currently available for freelance opportunities.
@@ -28,7 +29,7 @@
         </section>
         <div class="is-divider" data-content="OR"></div>
         <section class="work">
-          <div class="columns is-max-desktop">
+          <div class="columns projects is-desktop">
             <div class="column">
               <figure class="image is-rounded is-128x128">
                 <img src="../assets/foota.svg" alt="">
@@ -72,22 +73,26 @@ export default {
 </script>
 <style>
 .fulltext {
-  margin-left: 2rem;
-  margin-right: 0;
-  padding: 0rem 1rem 0rem 1rem;
   
+  margin:auto;
+  padding-top: 2rem;  
+}
+.fulltext {
+  width: 100%;
+  margin-top: 2rem;
 }
 .button {
-  display: inline-block;
-  margin:50px;
-  margin-right: 10px;
-  margin-left: 5px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 1rem;
 
 }
-.work {
-  width: 60vw;
-  margin: auto;
-  display: flex;
+.column {
+  padding: 2rem 0rem 2rem 0rem;
+}
+.buttons {
+  width: 50%;
+  float: left;
 }
 .captions {
   font-size: 20px;
@@ -102,11 +107,11 @@ export default {
   color: inherit;
   text-align: center;
 }
-.column {
-  margin: 100px 0px 100px 0px;
-  
+.work {
+  margin: auto;
+  width: 50vw;
 }
-.columns {
-  width: 60vw;
+.projects {
+  padding: 1rem;
 }
 </style>
